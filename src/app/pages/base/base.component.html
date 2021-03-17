@@ -1,1 +1,14 @@
-<p>base works!</p>
+<div>
+  <nz-upload
+    nzType="drag"
+    [nzMultiple]="true"
+    nzAction="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+    (nzChange)="handleChange($event)"
+  >
+    <p class="ant-upload-drag-icon">
+      <i nz-icon nzType="inbox"></i>
+    </p>
+    <p class="ant-upload-text">点击或者把文件拖入指定区域，完成上传</p>
+  </nz-upload>
+</div>
+
