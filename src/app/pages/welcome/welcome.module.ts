@@ -9,7 +9,7 @@ import {CommonModule} from '@angular/common';
 
 
 @NgModule({
-  imports: [WelcomeRoutingModule, NzTableModule, NzDividerModule, CommonModule],
+  imports: [WelcomeRoutingModule,NzTableModule, NzDividerModule, CommonModule],
   declarations: [WelcomeComponent],
   exports: [WelcomeComponent]
 })
