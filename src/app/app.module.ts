@@ -31,7 +31,7 @@ registerLocaleData(zh);
     IconsProviderModule,
     NzLayoutModule,
     NzMenuModule,
-    NzMessageModule
+    NzMessageModule,
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]

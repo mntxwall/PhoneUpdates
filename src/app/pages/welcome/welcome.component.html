@@ -1,11 +1,16 @@
 <div nz-row>
-  <div class="example-input" nz-col nzSpan="10">
+  <div nz-col nzSpan="10">
     <nz-input-group nzSize="large" [nzSuffix]="suffixIcon">
       <input placeholder="input here" nz-input [(ngModel)]="inputValue" (ngModelChange)="onChange($event)" />
     </nz-input-group>
     <ng-template #suffixIcon>
       <i nz-icon nzType="search"></i>
     </ng-template>
+  </div>
+  <div nz-col nzSpan="5">
+    <nz-button-group nzSize="large">
+      <button nz-button nzType="primary"><i nz-icon nzType="reload"></i>2222</button>
+    </nz-button-group>
   </div>
 </div>
 
